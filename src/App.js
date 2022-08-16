@@ -2,7 +2,11 @@ import Header from "./containers/header";
 
 function App() {
   return (
-    <Header/>
+    <>
+      <Header/>
+      <Main/>
+    </>
+    
   );
 }
 
