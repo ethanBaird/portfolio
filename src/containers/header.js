@@ -10,13 +10,8 @@ const Header = () => {
 };
 
 const Wrapper = styled.header`
-    background-color: #fdf7fa;
-    
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-
     padding: 16px;
-    box-shadow: 0 0 16px black;
 `
 
 const Title = styled.h1`
