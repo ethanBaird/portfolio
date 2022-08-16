@@ -12,7 +12,7 @@ function App() {
   );
 }
 
-const Window = styled.body`
+const Window = styled.div`
   background-color: #fdf7fa;
   font-family: 'Ubuntu', sans-serif;
 `
