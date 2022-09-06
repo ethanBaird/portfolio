@@ -8,7 +8,6 @@ const ProjectList = () => {
             <Item>
                 <h2>trackside</h2>
                 <h3>flask application</h3>
-                <FontAwesomeIcon icon="fa-brands fa-github" />
                 <p>Project Description</p>
             </Item>
         </List>
@@ -16,16 +15,35 @@ const ProjectList = () => {
 }
 
 const List = styled.ul`
-    padding: 1rem;
-    text-align: left;
     width: 50%;
+    text-align: left;
+    padding: 0;
 
 `
 
 const Item = styled.li`
-    list-style: none;
-    color: #fdf7fa;
-    background-color: #ff5757;
+    color: #e0e0e2;
+
+border-radius: 5px;
+box-shadow: 0 0 8px #ffb100;
+
+list-style: none;
+
+padding: 16px;
+
+h2 {
+    margin-top: 0px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+transition: 350ms ease-in;
+
+&:hover{
+    transform: scale(1.01, 1.01)
+}
 `
 
 

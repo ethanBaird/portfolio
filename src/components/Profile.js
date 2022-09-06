@@ -12,11 +12,10 @@ const Profile = () => {
 }
 
 const Wrapper = styled.div`
-    background-color: #ff5757;
-    color: #fdf7fa;
+    color: #e0e0e2;
 
     border-radius: 5px;
-    box-shadow: 0 0 8px #545454;
+    box-shadow: 0 0 8px #ffb100;
 
     width: 50%;
     padding: 16px;
@@ -32,7 +31,7 @@ const Wrapper = styled.div`
     transition: 350ms ease-in;
 
     &:hover{
-        transform: scale(1.05, 1.05)
+        transform: scale(1.01, 1.01)
     }
     `
 
