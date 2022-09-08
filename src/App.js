@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Nav from "./components/Nav";
 import Header from "./containers/Header";
 import Main from "./containers/Main";
+import Welcome from "./containers/Welcome";
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
   return (
   <>
     <Header/>
+    <Welcome/>
   </>
 );  
 }
