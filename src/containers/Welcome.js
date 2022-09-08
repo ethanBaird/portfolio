@@ -11,8 +11,6 @@ const Welcome = () => {
 
 const Wrapper = styled.div``
 
-const WelcomeText = styled.h1``
-
 const DP = styled.img``
 
-export default Welcome
+export default Welcome;
