@@ -1,21 +1,16 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import styled from "styled-components";
+import Nav from "./components/Nav";
 import Header from "./containers/Header";
 import Main from "./containers/Main";
-
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
 
 function App() {
   
   
   return (
-  <Router>
-    <Nav/>
-    <Routes>
-      <Route exact path="/#main" element={< Main />} />
-    </Routes>
-  </Router>
+  <>
+    <Header/>
+  </>
 );  
 }
 
