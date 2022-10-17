@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Header from "./containers/Header";
 import Welcome from "./containers/Welcome";
 
 function App() {
@@ -7,15 +6,16 @@ function App() {
   
   return (
     <Window>
-      <Header/>
       <Welcome/>
     </Window>
   );  
 }
 
 const Window = styled.div`
-  background-color: #003844;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   font-family: 'Ubuntu', sans-serif;
 `
 
