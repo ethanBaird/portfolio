@@ -7,6 +7,7 @@ function App() {
   return (
     <Window>
       <Welcome/>
+      <Project/>
     </Window>
   );  
 }

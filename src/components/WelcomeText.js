@@ -1,11 +1,10 @@
-import { TypeAnimation } from "react-type-animation"
 import styled from "styled-components"
 
 const WelcomeText = () => {
     return (
         <Wrapper>
-            <h1>ethanBaird</h1>
-            <h2>softwareDeveloper</h2>
+            <Name>ethanBaird</Name>
+            <Title>softwareDeveloper</Title>
         </Wrapper>
     )
 }
@@ -16,7 +15,11 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    text-align: right;
 `
+
+const Name = styled.h1``
+
+const Title = styled.h2``
 
 export default WelcomeText
