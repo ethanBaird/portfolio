@@ -40,6 +40,8 @@ const Window = styled.div`
 
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 
 
   
